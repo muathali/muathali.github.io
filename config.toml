@@ -2,4 +2,5 @@ baseURL = "https://muathali.github.io/"
 languageCode = "en-us"
 title = "Cloud Native"
 theme = "bilberry-hugo-theme"
-gravatarEMail = "muathali@live.com"
+[params]
+  gravatarEMail = "muathali@live.com"
