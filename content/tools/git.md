@@ -18,6 +18,14 @@ It’s best to have a clean working state when you switch branches. There are wa
 
 The Golden Rule of Git: Never rebase shared commit
 
+## Push an existing repository from the command line
+
+```bash
+git remote add origin repo-url.git
+git branch -M main
+git push -u origin main
+```
+
 ## git remote
 
 ```bash
